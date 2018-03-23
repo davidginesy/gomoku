@@ -1,0 +1,6 @@
+Le joueur Mr. Green a joué en 2, 6
+Le joueur Mr. Green a joué en 3, 6
+Le joueur Mr. Green a joué en 4, 6
+Le joueur Mr. Green a joué en 5, 6
+Le joueur Mr. Green a joué en 6, 6
+Game Over ------> Mr. Green played : 2,6 ; 3,6 ; 4,6 ; 5,6 ; 6,6 ; 
