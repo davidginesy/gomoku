@@ -1,6 +1,10 @@
-Le joueur Mr. Green a joué en 5, 0
-Le joueur Mr. Green a joué en 6, 0
-Le joueur Mr. Green a joué en 7, 0
-Le joueur Mr. Green a joué en 8, 0
-Le joueur Mr. Green a joué en 9, 0
-Game Over ------> Mr. Green played : 5,0 ; 6,0 ; 7,0 ; 8,0 ; 9,0 ; 
+Le joueur Mr. Red a joue en 1, 3
+Le joueur Mr. Green a joue en 2, 3
+Le joueur Mr. Red a joue en 1, 4
+Le joueur Mr. Green a joue en 2, 4
+Le joueur Mr. Red a joue en 1, 5
+Le joueur Mr. Green a joue en 2, 5
+Le joueur Mr. Red a joue en 1, 6
+Le joueur Mr. Green a joue en 2, 6
+Le joueur Mr. Red a joue en 1, 7
+Game Over ------> Mr. Red played : 1,3 ; 2,3 ; 1,4 ; 2,4 ; 1,5 ; 2,5 ; 1,6 ; 2,6 ; 1,7 ; 

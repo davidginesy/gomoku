@@ -20,14 +20,14 @@ public aspect Journal {
 	   // Advice declaration
 	   before(int x,int y, Player player) : captureCallParameters(x,y,player)
 	   {
-		   // System.out.println("Le joueur " + player.getName() + " a joué en " + x + ", " + y);
+		   System.out.println("Le joueur " + player.getName() + " a jouï¿½ en " + x + ", " + y);
 		   xList.add(x);
 		   yList.add(y);
 		   try
 		   {
 		      
 		       FileWriter fw = new FileWriter(filename,true); //the true will append the new data
-		       fw.write("Le joueur " + player.getName() + " a joué en " + x + ", " + y +"\n");//appends the string to the file
+		       fw.write("Le joueur " + player.getName() + " a joue en " + x + ", " + y +"\n");//appends the string to the file
 		       fw.close();
 		   }
 		   catch(IOException ioe)

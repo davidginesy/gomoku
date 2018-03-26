@@ -26,7 +26,10 @@ public class App extends Application {
 
 	@Override
 	public void start(Stage primaryStage) {
+		
 		primaryStage.setTitle("Gomoku Game!");
+		
+		
 
 		Canvas playGround = new Borad(this.gameGrid, this::makeMove); // In Java 8, ceci is the equivalent of
 																			// passing a ref to a methode (lambda exp et
@@ -38,12 +41,14 @@ public class App extends Application {
 	}
 
 	private void makeMove(Spot place) {
+		
 		gameGrid.placeStone(place.x, place.y, getCurrentPlayer());
 	}
 
 	private Player getCurrentPlayer() {
 		return Popeye;
 	}
+	
 	public static void main(String[] args) {
 		launch(args);
 	}
