@@ -20,7 +20,7 @@ public aspect Journal {
 	   // Advice declaration
 	   before(int x,int y, Player player) : captureCallParameters(x,y,player)
 	   {
-		   System.out.println("Le joueur " + player.getName() + " a jou� en " + x + ", " + y);
+		   System.out.println("Le joueur " + player.getName() + " a joue en " + x + ", " + y);
 		   xList.add(x);
 		   yList.add(y);
 		   try

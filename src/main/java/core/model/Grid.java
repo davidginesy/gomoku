@@ -61,6 +61,7 @@ public class Grid {
 
 	/** Is the game over? */
 	public boolean isGameOver() {
+		
 		return winningStones.size() > 0 || isFull();
 	}
 
@@ -159,11 +160,13 @@ public class Grid {
 	}
 
 	public void placeStone(int x, int y, Player player) {
+		
 		Spot place = at(x, y);
 		if (place != null) {
 			place.setOccupant(player);
 			notifyStonePlaced(place);
 			if (isWonBy(player)) {
+				System.out.println("winningStones"+winningStones);
 				notifyGameOver(player); // win
 			} else if (isFull()) {
 				notifyGameOver(null); // draw
