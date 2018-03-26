@@ -3,7 +3,8 @@ import java.io.IOException;
 import core.GridChangeListener;
 import javafx.application.Platform;
 import core.Player;
-
+import core.model.Grid;
+import core.GridChangeListener;
 
 public aspect FinJeu {
 	
@@ -21,5 +22,5 @@ public aspect FinJeu {
 		Platform.exit();
 	 }
 	 
-	
+
 }
