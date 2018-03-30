@@ -1,10 +1,18 @@
-Le joueur Mr. Red a joue en 3, 2
-Le joueur Mr. Green a joue en 4, 2
-Le joueur Mr. Red a joue en 3, 1
-Le joueur Mr. Green a joue en 4, 1
-Le joueur Mr. Red a joue en 3, 3
-Le joueur Mr. Green a joue en 4, 3
-Le joueur Mr. Red a joue en 3, 0
-Le joueur Mr. Green a joue en 4, 0
-Le joueur Mr. Red a joue en 3, 4
-Game Over ------> Mr. Red played : 3,2 ; 4,2 ; 3,1 ; 4,1 ; 3,3 ; 4,3 ; 3,0 ; 4,0 ; 3,4 ; 
+Le joueur Mr. Red a joue en 5, 4
+Le joueur Mr. Green a joue en 5, 5
+Le joueur Mr. Red a joue en 6, 4
+Le joueur Mr. Green a joue en 6, 5
+Le joueur Mr. Red a joue en 7, 4
+Le joueur Mr. Green a joue en 7, 5
+Le joueur Mr. Red a joue en 8, 4
+Le joueur Mr. Green a joue en 8, 5
+Le joueur Mr. Red a joue en 9, 4
+Game Over ------> Mr. Red played : 5,4 ; 5,5 ; 6,4 ; 6,5 ; 7,4 ; 7,5 ; 8,4 ; 8,5 ; 9,4 ; 
+Le joueur Mr. Green a joue en 9, 5
+Le joueur Mr. Red a joue en 10, 4
+Le joueur Mr. Green a joue en 10, 4
+Le joueur Mr. Red a joue en 10, 4
+Le joueur Mr. Green a joue en 10, 4
+Le joueur Mr. Red a joue en 10, 4
+Le joueur Mr. Green a joue en 10, 4
+Le joueur Mr. Red a joue en 10, 4

@@ -166,7 +166,6 @@ public class Grid {
 			place.setOccupant(player);
 			notifyStonePlaced(place);
 			if (isWonBy(player)) {
-				System.out.println("winningStones"+winningStones);
 				notifyGameOver(player); // win
 			} else if (isFull()) {
 				notifyGameOver(null); // draw

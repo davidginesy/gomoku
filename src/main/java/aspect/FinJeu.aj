@@ -7,19 +7,20 @@ import core.Player;
 
 public aspect FinJeu {
 	
-	pointcut gameOver(Player player) :
+	/*pointcut gameOver(Player player) :
 		call(void GridChangeListener.gameOver(Player)) && args(player);
  
 	 after(Player player) : gameOver(player){
 		System.out.println("Game Over !! "+player.getName() + " won the game !");
-		/*ProcessBuilder pb = new ProcessBuilder("Notepad.exe","Journal.txt");
+		ProcessBuilder pb = new ProcessBuilder("Notepad.exe","Journal.txt");
 		try {
 			pb.start();
 		} catch (IOException e) {
 			e.printStackTrace();
-		}*/
+		}
 		Platform.exit();
-	 }
+	 }*/
+
 	 
 	
 }
